@@ -96,3 +96,11 @@ results/*.csv
 paper/
 submission/
 
+# Private/Internal Notes
+brainstorm.md
+publication_guide.md
+screenshot_guide.md
+SCHOLARSHIP_GUIDE.md
+*_Manuscript_*.docx  # Hides extra draft versions
+
+
