@@ -1,0 +1,13 @@
+{
+  "name": "payment-api-integration-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/config.js && node --check src/paymentClient.js"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "prompt2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "crypto-js": "^4.2.0",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "nodemailer": "^8.0.8",
+    "uuid": "^14.0.0"
+  }
+}

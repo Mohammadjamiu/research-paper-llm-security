@@ -1,0 +1,13 @@
+{
+  "name": "contact-form-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  }
+}

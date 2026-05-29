@@ -1,0 +1,16 @@
+{
+  "name": "profile-image-upload-api",
+  "version": "1.0.0",
+  "description": "Secure profile image upload API",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+# Product Search API Requirements
+
+# Web Framework
+flask>=2.3.0
+
+# Database (built-in with Python)
+# sqlite3 is part of Python standard library
+
+# Type hints support
+typing-extensions>=4.5.0; python_version < "3.10"
+
+# Development dependencies (optional)
+pytest>=7.3.0
+pytest-flask>=1.2.0
+black>=23.0.0
+flake8>=6.0.0

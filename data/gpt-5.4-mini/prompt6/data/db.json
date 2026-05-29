@@ -1,0 +1,254 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "System Admin",
+      "email": "admin@local.test",
+      "passwordHash": "e9dda059204319b35f446af8202a12fe827f082ecba352826f5d854cb2178925dcdfc904a9c1aa10027b5814e22d07d62793726655d862567a85a8ac54413ed3",
+      "passwordSalt": "2121a4dd11a9b1b4620c6676d7bb0085",
+      "roleId": 1,
+      "status": "active",
+      "createdAt": "2026-05-25T23:09:28.865Z",
+      "updatedAt": "2026-05-25T23:09:28.865Z"
+    },
+    {
+      "id": 2,
+      "name": "Demo Manager",
+      "email": "manager@local.test",
+      "passwordHash": "5b60344494d379c8644c45b18d3e8f1e0a43054d4b900ebe9ea8edec6f8bb3662a56cbe4c1b8b118caf21e612aaef49994ddccf4c96c79391723b2cfc432ea8c",
+      "passwordSalt": "2258fd8290cbb91ed73a9071c9ab7654",
+      "roleId": 3,
+      "status": "active",
+      "createdAt": "2026-05-25T23:09:28.865Z",
+      "updatedAt": "2026-05-25T23:09:28.865Z"
+    },
+    {
+      "id": 3,
+      "name": "Demo Viewer",
+      "email": "viewer@local.test",
+      "passwordHash": "0c1b750ed5f82963fce348e9da65209b4381b9ac65f9dd0713c477f6e944b5b5c5c87c89b773d12cd4dd56cd1c8a5639a17138e6f25cad0ae0e4d91e9be84208",
+      "passwordSalt": "48204afb423e4f0679fbeed38d5da674",
+      "roleId": 4,
+      "status": "active",
+      "createdAt": "2026-05-25T23:09:28.865Z",
+      "updatedAt": "2026-05-25T23:09:28.865Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Super Admin",
+      "slug": "super_admin",
+      "description": "Full access to everything",
+      "system": true,
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "slug": "admin",
+      "description": "Administrative access",
+      "system": true,
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 3,
+      "name": "Manager",
+      "slug": "manager",
+      "description": "Manage users and inspect the dashboard",
+      "system": true,
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 4,
+      "name": "Viewer",
+      "slug": "viewer",
+      "description": "Read-only access",
+      "system": true,
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "key": "dashboard.view",
+      "description": "View the dashboard",
+      "createdAt": "2026-05-25T23:09:28.274Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 2,
+      "key": "users.read",
+      "description": "Read users",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 3,
+      "key": "users.create",
+      "description": "Create users",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 4,
+      "key": "users.update",
+      "description": "Update users",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 5,
+      "key": "users.delete",
+      "description": "Delete users",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 6,
+      "key": "roles.read",
+      "description": "Read roles",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 7,
+      "key": "roles.create",
+      "description": "Create roles",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 8,
+      "key": "roles.update",
+      "description": "Update roles",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 9,
+      "key": "roles.delete",
+      "description": "Delete roles",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 10,
+      "key": "permissions.read",
+      "description": "Read permissions",
+      "createdAt": "2026-05-25T23:09:28.275Z",
+      "updatedAt": "2026-05-25T23:09:28.275Z"
+    },
+    {
+      "id": 11,
+      "key": "permissions.create",
+      "description": "Create permissions",
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 12,
+      "key": "permissions.update",
+      "description": "Update permissions",
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 13,
+      "key": "permissions.delete",
+      "description": "Delete permissions",
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    },
+    {
+      "id": 14,
+      "key": "audit.read",
+      "description": "Read audit logs",
+      "createdAt": "2026-05-25T23:09:28.276Z",
+      "updatedAt": "2026-05-25T23:09:28.276Z"
+    }
+  ],
+  "rolePermissions": [
+    {
+      "roleId": 2,
+      "permissionId": 1
+    },
+    {
+      "roleId": 2,
+      "permissionId": 2
+    },
+    {
+      "roleId": 2,
+      "permissionId": 3
+    },
+    {
+      "roleId": 2,
+      "permissionId": 4
+    },
+    {
+      "roleId": 2,
+      "permissionId": 5
+    },
+    {
+      "roleId": 2,
+      "permissionId": 6
+    },
+    {
+      "roleId": 2,
+      "permissionId": 7
+    },
+    {
+      "roleId": 2,
+      "permissionId": 8
+    },
+    {
+      "roleId": 2,
+      "permissionId": 9
+    },
+    {
+      "roleId": 2,
+      "permissionId": 10
+    },
+    {
+      "roleId": 2,
+      "permissionId": 11
+    },
+    {
+      "roleId": 2,
+      "permissionId": 12
+    },
+    {
+      "roleId": 2,
+      "permissionId": 13
+    },
+    {
+      "roleId": 2,
+      "permissionId": 14
+    },
+    {
+      "roleId": 3,
+      "permissionId": 1
+    },
+    {
+      "roleId": 3,
+      "permissionId": 2
+    },
+    {
+      "roleId": 3,
+      "permissionId": 4
+    },
+    {
+      "roleId": 3,
+      "permissionId": 14
+    },
+    {
+      "roleId": 4,
+      "permissionId": 1
+    }
+  ],
+  "auditLogs": []
+}

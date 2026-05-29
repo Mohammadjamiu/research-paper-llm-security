@@ -1,0 +1,15 @@
+{
+  "name": "product-search-api",
+  "version": "1.0.0",
+  "description": "Product search endpoint with SQL filtering and sorting",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}

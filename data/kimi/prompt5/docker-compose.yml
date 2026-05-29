@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - SECRET_KEY=${SECRET_KEY:-change-this-in-production}
+      - API_TOKEN=${API_TOKEN:-your-secure-api-token}
+      - UPLOAD_FOLDER=/app/uploads/profile_images
+      - RATELIMIT_STORAGE_URI=redis://redis:6379/0
+      - ENABLE_VIRUS_SCAN=false
+    volumes:
+      - uploads:/app/uploads
+    depends_on:
+      - redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  uploads:
+  redis_data:

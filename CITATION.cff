@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+authors:
+- family-names: "Balogun"
+  given-names: "Mohammad-Jamiu Babatunde"
+title: "Security Benchmarking of AI-Generated Web Application Code"
+version: 1.0.0
+date-released: 2026-05-29
+url: "https://github.com/Mohammadjamiu/research-paper-llm-security"
+
