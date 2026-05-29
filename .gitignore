@@ -90,8 +90,9 @@ public
 Thumbs.db
 
 # Research specific
-screenshots/social_preview.png  # Keep this if you want it tracked, or ignore if you only want it on GitHub
+screenshots/social_preview.png
 results/*.json
 results/*.csv
-# temp/
-# data/*/prompt*/*.log
+paper/
+submission/
+
